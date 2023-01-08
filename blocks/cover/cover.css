@@ -15,7 +15,7 @@
   @media (max-width: 751px) {
     .cover {
     padding: 0;
-    margin: 66px auto 64px
+    margin: 66px auto 64px;
     }
   }
   @media (max-width: 320px) {
