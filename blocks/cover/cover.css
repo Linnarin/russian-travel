@@ -3,13 +3,13 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 92 auto 92px;
+    margin: 92px auto 92px;
     max-width: 1184px;
   }
   @media (max-width: 768px) {
     .cover {
     padding: 0;
-    margin: 90 auto 88px;
+    margin: 90px auto 88px;
     }
   }
   @media (max-width: 751px) {

@@ -4,7 +4,6 @@
   line-height: 1.125;
   color: #FFFFFF;
   text-decoration: none;
-  margin-right: 18;
 }
 @media (max-width: 751px) {
   .footer__link {
