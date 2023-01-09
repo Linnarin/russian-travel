@@ -1,6 +1,6 @@
 .header__links {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    gap: 0 18px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 0 18px;
 }

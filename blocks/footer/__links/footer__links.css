@@ -1,15 +1,16 @@
 .footer__links {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    gap: 0 18px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 0 18px;
+}
+
+@media (max-width: 751px) {
+  .footer__links {
+    flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 48px;
   }
-  @media (max-width: 751px) {
-    .footer__links {
-      flex-direction: column;
-      row-gap: 32px;
-      margin-bottom: 48px;
-    }
-  }
+}

@@ -1,13 +1,14 @@
 .place__text {
-    display:flex;
-    flex-direction: column;
-    align-self: flex-start;
-    margin: 0;
-    gap: 26px;
-    max-width: 484px;
+  display:flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 0;
+  gap: 26px;
+  max-width: 484px;
+}
+
+@media (max-width: 751px) {
+  .place__text {
+    padding: 0 16px;
   }
-  @media (max-width: 751px) {
-    .place__text {
-      padding: 0 16px;
-    }
-  }
+}

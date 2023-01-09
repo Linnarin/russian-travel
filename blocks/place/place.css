@@ -5,12 +5,13 @@
   gap: 80px;
   margin: 0;
 }
+
 @media (max-width: 1023px) {
   .place {
     gap: 73px;
   }
-
 }
+
 @media (max-width: 767px) {
   .place {
     gap: 50px;

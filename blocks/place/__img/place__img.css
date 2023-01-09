@@ -1,20 +1,23 @@
 .place__img {
-    max-width: 460px;
-    height: auto;
-    align-self: flex-start;
-  }
-  @media (max-width: 1279px) {
-    .place__img {
+  max-width: 460px;
+  height: auto;
+  align-self: flex-start;
+}
+
+@media (max-width: 1279px) {
+  .place__img {
     max-width: 440px;
   }
-  }
-  @media (max-width: 1023px) {
-    .place__img {
+}
+
+@media (max-width: 1023px) {
+  .place__img {
     max-width: 340px;
   }
+}
+
+@media (max-width: 751px) {
+  .place__img {
+    max-width: 320px;
   }
-  @media (max-width: 751px) {
-    .place__img {
-      max-width: 320px;
-  }
-  }
+}

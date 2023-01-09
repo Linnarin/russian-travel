@@ -1,27 +1,30 @@
+.place__card {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows: auto auto;
+  gap: 48px 40px;
+  align-items: flex-end;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
   .place__card {
-    display: grid;
-    grid-template-columns: min-content auto;
-    grid-template-rows: auto auto;
-    gap: 48px 40px;
-    align-items: flex-end;
-    box-sizing: border-box;
-    justify-content: center;
+    gap: 48px 32px;
   }
-  @media (max-width: 1024px) {
-    .place__card {
-      gap: 48px 32px;
-    }
+}
+
+@media (max-width: 768px) {
+  .place__card {
+    gap: 48px 28px;
   }
-  @media (max-width: 768px) {
-    .place__card {
-      gap: 48px 28px;
-    }
-  }
-  @media (max-width: 751px) {
-    .place__card {
+}
+
+@media (max-width: 751px) {
+  .place__card {
     padding: 0;
     grid-template-columns: min-content;
     grid-template-rows: auto auto auto auto;
     gap: 32px 0;
   }
-  }
+}
