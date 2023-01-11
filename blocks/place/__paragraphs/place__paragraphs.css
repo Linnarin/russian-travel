@@ -1,4 +1,4 @@
-.place__text {
+.place__paragraphs {
   display:flex;
   flex-direction: column;
   align-self: flex-start;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 751px) {
-  .place__text {
+  .place__paragraphs {
     padding: 0 16px;
   }
 }

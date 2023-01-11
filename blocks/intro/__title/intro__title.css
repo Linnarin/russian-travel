@@ -8,17 +8,12 @@
 
 @media (max-width: 768px) {
   .intro__title {
-    margin: 88px 0 40px; 
+    margin: 88px 0 40px;
+    font-size: 32px;
+    line-height: 1.09; 
   }
 }
   
-@media (max-width: 751px) {
-  .intro__title {
-    font-size: 32px;
-    line-height: 1.09;
-  }
-}
-
 @media (max-width: 320px) {
   .intro__title {
     margin: 64px 0 40px; 
