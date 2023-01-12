@@ -26,12 +26,6 @@
 }
 
 .cover__link:hover::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
   background-color:rgba(42, 44, 47, 0.8);
 }
 
@@ -49,10 +43,6 @@
 
 @media (max-width: 320px) {
   .cover__link {
-    padding: 33px 33px;
+    padding: 33px 16px;
   }
-}
-
-.cover__link:hover {
-  background-color: rgba(42, 44, 47, 0.8);
 }
